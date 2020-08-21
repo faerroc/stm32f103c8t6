@@ -3,3 +3,5 @@
 *.bin
 *.elf
 *.map
+*.hex
+/libopencm3/*
