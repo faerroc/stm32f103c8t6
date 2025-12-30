@@ -190,6 +190,13 @@ This project structure has been modified a little bit.
 
 3) The stlink submodule has been removed as well and it should be clonned outside stm32f103c8t6 folder.
 
+4) After cloning this repo, execute the following commands
+
+git submodule update --init --recursive
+cd libopencm3
+make
+24bef9c49eda109e92e926e065b246a71d454f2d
+
 Fabricio Correa
 faerroc@gmail.com
 20/08/2020
